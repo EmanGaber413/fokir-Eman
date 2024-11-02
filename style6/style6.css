@@ -68,6 +68,30 @@ nav {
     width: 100%;
 }
 
+.emo::after
+{content: "";
+    width: ;
+     animation: typing-letter 1.25s alternate infinite;
+     color: rgb(255, 255, 255);
+     font-weight: bold;
+     font-size: 32px;
+
+     animation-name: typing-letter;
+     /* animation-duration: 1s; */
+}
+
+@keyframes typing-letter { 
+    0% {content: " !"}
+    10% {content: " D!"}
+    15% {content: " De!"}
+    30% {content: " Dev!"}
+    45% {content: " Deve!"}
+    60% {content: " Devel!"}
+    75% {content: " Develo!"}
+    90% {content: " Develope!"}
+    100% {content: " Developer!"}
+}
+
 /* /* .description{position:absolute;} * /  لم يظهر عندما كان خارج فريست بيدج 
  */
 .description {
